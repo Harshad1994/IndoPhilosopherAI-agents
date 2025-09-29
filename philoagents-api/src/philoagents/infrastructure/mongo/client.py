@@ -59,8 +59,10 @@ class MongoClientWrapper(Generic[T]):
         self.mongodb_uri = mongodb_uri
 
         try:
+            logger.info(f"mongodb_uri: {mongodb_uri}")
             self.client = MongoClient(mongodb_uri, appname="philoagents")
             self.client.admin.command("ping")
+            logger.info(f"Connection successfull")
         except Exception as e:
             logger.error(f"Failed to initialize MongoDBService: {e}")
             raise

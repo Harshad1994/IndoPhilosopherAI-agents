@@ -12,43 +12,10 @@
         ]
     },
     {
-        "id": "socrates",
+        "id": "ramanuja",
         "urls": [
-            "https://plato.stanford.edu/entries/socrates/"
+            "https://iep.utm.edu/ramanuja/"
         ]
-    },
-    {
-        "id": "descartes",
-        "urls": [
-            "https://plato.stanford.edu/entries/descartes/"
-        ]
-    },
-    {
-        "id": "leibniz",
-        "urls": [
-            "https://plato.stanford.edu/entries/leibniz/"
-        ]
-    },
-    {
-        "id": "ada_lovelace",
-        "urls": []
-    },
-    {
-        "id": "turing",
-        "urls": [
-            "https://plato.stanford.edu/entries/turing/"
-        ]
-    },
-    {
-        "id": "searle",
-        "urls": []
-    },
-    {
-        "id": "chomsky",
-        "urls": []
-    },
-    {
-        "id": "dennett",
-        "urls": []
     }
+
 ]

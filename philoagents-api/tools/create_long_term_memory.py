@@ -12,6 +12,7 @@ from philoagents.domain.philosopher import PhilosopherExtract
     "--metadata-file",
     type=click.Path(exists=True, path_type=Path),
     default=settings.EXTRACTION_METADATA_FILE_PATH,
+    # default = r"/Users/harshad-mac/workspace/git-repos/IndoPhilosopherAI-agents/philoagents-api/data/extraction_metadata.json",
     help="Path to the philosophers extraction metadata JSON file.",
 )
 def main(metadata_file: Path) -> None:

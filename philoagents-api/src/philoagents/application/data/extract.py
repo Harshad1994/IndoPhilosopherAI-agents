@@ -161,12 +161,11 @@ def extract_stanford_encyclopedia_of_philosophy(
 
 
 if __name__ == "__main__":
-    aristotle = PhilosopherFactory().get_philosopher("aristotle")
+    aristotle = PhilosopherFactory().get_philosopher("ramanuja")
     docs = extract_stanford_encyclopedia_of_philosophy(
         aristotle,
         [
-            "https://plato.stanford.edu/entries/aristotle/",
-            "https://plato.stanford.edu/entries/aristotle/",
+            "https://iep.utm.edu/ramanuja/",
         ],
     )
     print(docs)

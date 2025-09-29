@@ -65,7 +65,7 @@ export class Game extends Scene
             { id: "descartes", name: "Descartes", defaultDirection: "front", roamRadius: 650 },
             { id: "leibniz", name: "Leibniz", defaultDirection: "front", roamRadius: 720 },
             { id: "ada_lovelace", name: "Ada Lovelace", defaultDirection: "front", roamRadius: 680 },
-            { id: "turing", name: "Turing", defaultDirection: "front", roamRadius: 770 },
+            { id: "ramanuja", name: "Ramanuja", defaultDirection: "front", roamRadius: 770 },
             { id: "searle", name: "Searle", defaultDirection: "front", roamRadius: 730 },
             { id: "chomsky", name: "Chomsky", defaultDirection: "front", roamRadius: 690 },
             { id: "dennett", name: "Dennett", defaultDirection: "front", roamRadius: 710 },
